@@ -1,0 +1,144 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: .7rem;
+    padding-bottom: 1rem;
+}
+
+.nav .alink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .alink a{
+    color: black;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-top: 0;
+    font-size: 1.2rem;
+    border: none;
+
+}
+
+.nav .alink a:hover{
+    color: black;
+    background-color: snow;
+}
+
+.nav  a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: .2rem 1rem;
+    border-radius: 5px;
+    transition: .2s linear;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+
+}
+.nav  a:hover{
+    color: white;
+    background-color: black;
+
+}
+
+/*Home*/
+
+.home{
+    height: 20rem;
+    background-color: #212529;
+    margin: 0 auto;
+}
+.home .words{
+    padding-top: 5rem;
+}
+.home .words h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+.home .words p{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+
+/*Cards*/
+
+
+
+.card-flex{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+
+}
+.card-flex .cards{
+    margin: 0 auto;
+    width: 15rem;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.card-flex .cards .card img{
+    width: 100%;
+    border-radius: 0;
+}
+
+.card-flex .cards .card-body{
+
+    text-align: center;
+    height: 16rem;
+    padding: 1rem 0rem;
+}
+.card-flex .cards .card-body p {
+    font-size: 1rem;
+}
+.card-flex .cards .card-body h3{
+    font-size: 2rem;
+}
+
+.card-flex .cards .card-body p span {
+    text-decoration: line-through;
+    color: grey;
+}
+
+
+.card-flex .cards .card-body a{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: .5rem;
+    text-decoration: none;
+
+}
+
+.container{
+    padding-bottom: 5rem;
+}
+
+footer{
+    height: 7rem;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p{
+    color: white;
+   }
+
+
+
+
